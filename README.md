@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 # Generative-Adversarial-Network-GAN
 Generative Adversarial Network Example
 
@@ -22,5 +22,3 @@ Generative Adversarial Network (GAN) Example using Keras.
 ![](images/line.png)
 
 ![](images/mode_colapse.png)
-
->>>>>>> Stashed changes
