@@ -1,24 +1,29 @@
 
-# Generative-Adversarial-Network-GAN
-Generative Adversarial Network Example
+# Generative Adversarial Network (GAN) Example using Keras. 
 
+The goal of this GAN is to generate fake date from a dataset shown below. 
 
-# Tips
-* When training the Generator, the Disciminator should be constant, and the other way around. 
-* The two neural networks should be acually good during training. 
-=======
-# Generative-Adversarial-Network--GAN-
-Generative Adversarial Network (GAN) Example using Keras. 
+![Original Dataset](images/dataset.png)
 
+<br><br>
 
-![](images/GAN_training.gif)
+This is a shapshot of how the training gradually improves. 
 
-![](images/dataset.png)
+![GAN Training](images/GAN_training.gif)
+
+<br><br>
+
+The final results are shown below. 
 
 ![](images/good.png)
 
-![](images/regularization.png)
+<br><br>
 
-![](images/line.png)
+A known issue with GAN is mode collapse. 
+This is when the generator learns to generate a subset of the real distribution. 
 
-![](images/mode_colapse.png)
+![Mode Colapse](images/mode_colapse.png)
+
+![Regularization](images/regularization.png)
+
+![Strange learning](images/line.png)
