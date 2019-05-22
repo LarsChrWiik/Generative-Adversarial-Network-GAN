@@ -89,7 +89,7 @@ def __build_discriminator():
     # Output layer. 
     x = Dense(D_OUTPUT_SIZE)(x)
     x = BatchNormalization()(x)
-    out_x = Activation("linear")(x)
+    cout_x = Activation("linear")(x)
     #out_x = Activation("sigmoid")(x)
     
     return Model(input_x, out_x)
