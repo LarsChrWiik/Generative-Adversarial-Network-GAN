@@ -5,25 +5,34 @@ The goal of this GAN is to generate fake date from a dataset shown below.
 
 ![Original Dataset](images/dataset.png)
 
-<br><br>
+<br>
 
 This is a shapshot of how the training gradually improves. 
 
 ![GAN Training](images/GAN_training.gif)
 
-<br><br>
+<br>
 
 The final results are shown below. 
+NOTE that the model is not able to recrease the entire sampling distribution. 
+This is due to mode colapse, which is a hot topic in regards to GANs. 
 
 ![](images/good.png)
 
-<br><br>
+<br>
 
-A known issue with GAN is mode collapse. 
-This is when the generator learns to generate a subset of the real distribution. 
+A worse mode colapse is shown below. 
 
 ![Mode Colapse](images/mode_colapse.png)
 
+<br>
+
+Adding regularization and dropout seem to enforce mode collapse. 
+
 ![Regularization](images/regularization.png)
+
+<br>
+
+Other strange learning scenarios. 
 
 ![Strange learning](images/line.png)
