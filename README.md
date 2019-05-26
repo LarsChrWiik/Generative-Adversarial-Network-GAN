@@ -1,5 +1,5 @@
 
-# Generative Adversarial Network (GAN) Example using Keras. 
+# Generative Adversarial Network (GAN) Example using Keras
 
 The goal of this GAN is to generate fake date from a dataset shown below. 
 
