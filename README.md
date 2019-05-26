@@ -31,8 +31,3 @@ Adding regularization and dropout seem to enforce mode collapse.
 
 ![Regularization](images/regularization.png)
 
-<br>
-
-Other strange learning scenarios. 
-
-![Strange learning](images/line.png)
